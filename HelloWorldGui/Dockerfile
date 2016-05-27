@@ -1,4 +1,4 @@
-FROM tefworkshop/qt5-console
+FROM tefworkshop/qt5-console:8
 MAINTAINER Stefan Hans <stefan.hans@telefonica.com> 
 
 RUN mkdir /home/HelloWorldGui
