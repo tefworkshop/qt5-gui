@@ -8,6 +8,6 @@ ADD mainwindow.cpp /home/HelloWorldGui
 ADD mainwindow.h /home/HelloWorldGui
 ADD mainwindow.ui /home/HelloWorldGui
 
-#RUN cd /home/HelloWorldGui && qmake && make && ./HelloWorldGui
+RUN cd /home/HelloWorldGui && qmake && make
 
-CMD ["/bin/bash"]
+CMD /home/HelloWorldGui/HelloWorldGui
