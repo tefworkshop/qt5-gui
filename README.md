@@ -1,2 +1,2 @@
 # qt5-gui
-Image for Qt5 Gui Application
+For Qt5 Gui Application Docker Image
